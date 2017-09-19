@@ -1,0 +1,62 @@
+p{
+  margin-bottom: 0;
+}
+.welcome{
+  background: url("../img/wel.jpg") no-repeat center top;
+  color: #fff;
+  background-color: #B8E0CB;
+  /*background-size: cover;*/
+  background-attachment: fixed !important;
+  height: 100vh;
+}
+.mix{
+  position: absolute;
+  z-index: 1;
+  color: #060029;
+}
+.aboutUs{
+  color: #fff;
+  background:#060029;
+}
+.aboutUs p{
+  padding-bottom: 2rem;
+}
+.platform{
+  background-color: #F17370;
+  color: #fff;
+}
+.platform .container{
+  display: flex;
+  flex-direction: column;
+}
+.platform .container img {
+  max-width: 100%;
+}
+.platform .container .parrafo{
+  display: flex;
+  align-items: center;
+}
+.platform .container h3{
+  margin: 3rem;
+}
+.job{
+  background-color: #2B414D;
+}
+footer{
+  background: #2B414D;
+  color: white;
+}
+@media (max-width:375px){
+  .platform .container .textIpad{
+    order: 2;
+  }
+  .platform .container .imgIpad{
+    order: 1;
+  }
+  .platform .container .row h3{
+    font-size: 40px;
+  }
+  .mix{
+    font-size: 40px;
+  }
+}
